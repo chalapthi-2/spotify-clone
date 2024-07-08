@@ -20,6 +20,8 @@
 </head>
 <body>
     <div class="main">
+
+
         <div class="side-bar">
             <div class="nav">
                 <div class="nav-option">
@@ -44,22 +46,111 @@
                 </div>
                 <div class="lib-box">
                     <div class="box">
-                        <div class="box-p1">
+                        <p class="box-p1">
                             Create your first playlist
-                        </div>
-                        <div class="box-p2">
-                            Its easy we"ll help ypu
-                        </div>
+                        </p>
+                        <p class="box-p2">
+                            Its easy we"ll help you
+                        </p>
                         <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">
+                            Lets's find some podcasts to follow
+                        </p>
+                        <p class="box-p2">
+                            We'll keep you updated on new episodes
+                        </p>
+                        <button class="badge">Browse Podcasts</button>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="main-content">
-            main
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-solid fa-download" style="margin-right: 0.5rem;"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <!-- Cards -->
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Trending</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card2img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card3img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card4img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs - India</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+                <div class="card">
+                    <img src="./assets/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily update of the most played tracks...</p>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <div class="line"></div>
+            </div>
         </div>
+
+
         <div class="music-player">
-            music-player
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-controls-img">
+                    <img src="./assets/player_icon2.png" class="player-controls-img">
+                    <img src="./assets/player_icon3.png" class="player-controls-img" style="opacity: 1;height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-controls-img">
+                    <img src="./assets/player_icon5.png" class="player-controls-img">
+                </div>
+                <div class="player-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="playback-bar" step="1">
+                    <span class="total-time">4:35</span>
+                </div>
+            </div>
+            <div class="control"></div>
         </div>
     </div>
 </body>
